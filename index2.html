@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <Button class="elephant">Reveal</Button>
+    <div class="picture">
+        <img src="puppies.png" />
+    </div>
+    1
+    <script>
+        $(".picture").click(function() {
+            $(this).hide(200);
+        });
+        $(".elephant").click(function() {
+            $(".picture").show(200);
+        });
+    </script>
+</body>
+
+</html>
